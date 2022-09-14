@@ -1,0 +1,58 @@
+:root { 
+
+    /* Primary */
+    --Soft blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%); 
+
+    /* Neutral */
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very dark blue (line): hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Body copy   */
+    --Font size: 18px;
+
+    /* Font Weight */
+    --fw-light: 300; 
+    --fw-medium: 400; 
+    --fw-heavy: 600;
+
+}
+body { 
+    margin: 0;
+    padding: 30px;
+    background-color: var(--Very-dark-blue);
+}
+
+main { 
+
+    display: block;
+    background-color: var(--Very-dark-blue-card);
+    padding: 10px;
+    color: white;
+    border-radius: 10%;
+    padding: 30px;
+    overflow: scroll;
+}
+
+
+#image-container { 
+    width: 300px;
+    height: 300px;
+  
+}
+
+
+#main-image { 
+  height: auto;
+  width: 100%;
+  
+
+}
+
+.container-info { 
+    display: flex;
+    justify-content: space-between;
+    
+}
