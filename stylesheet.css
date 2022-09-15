@@ -1,13 +1,13 @@
 :root { 
 
     /* Primary */
-    --Soft blue: hsl(215, 51%, 70%);
+    --Soft-blue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%); 
 
     /* Neutral */
     --Very-dark-blue: hsl(217, 54%, 11%);
     --Very-dark-blue-card: hsl(216, 50%, 16%);
-    --Very dark blue (line): hsl(215, 32%, 27%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 
     /* Body copy   */
@@ -19,40 +19,74 @@
     --fw-heavy: 600;
 
 }
+
 body { 
     margin: 0;
     padding: 30px;
     background-color: var(--Very-dark-blue);
 }
 
+/* Main container  */
 main { 
 
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: var(--Very-dark-blue-card);
     padding: 10px;
     color: white;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 30px;
     overflow: scroll;
 }
 
 
-#image-container { 
-    width: 300px;
-    height: 300px;
-  
-}
-
-
+/* Main image  */
 #main-image { 
   height: auto;
   width: 100%;
+  border-radius: 5px;
   
 
 }
 
+
+/* number info */
 .container-info { 
     display: flex;
     justify-content: space-between;
+    
+}
+
+.numbers { 
+    color: var(--Cyan);
+
+}
+
+.days { 
+    color: var(--Soft-blue)
+}
+
+
+/* Footer info */
+
+Footer { 
+    display: flex;
+    gap: 10px;
+    border-top: 1px var(--Very-dark-blue-line) solid;
+    margin-top: 5px; 
+}
+.creation { 
+    text-align: center;
+    color: var(--Soft-blue);
+}
+
+.firstlastname { 
+    color: var(--White);
+}
+
+#profile { 
+    height: 40px;
+    border: 1px white solid; 
+    border-radius: 50%; 
     
 }
