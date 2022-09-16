@@ -57,7 +57,26 @@ main {
     
 }
 
+.container-number { 
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#number-svg { 
+
+    
+    
+
+}
+
+
 .numbers { 
+    line-height: 20px;
+   
+    
     color: var(--Cyan);
 
 }
