@@ -18,6 +18,8 @@
     --fw-medium: 400; 
     --fw-heavy: 600;
 
+    --ff: 'Fraunces', serif; 
+
 }
 
 body { 
@@ -37,6 +39,7 @@ main {
     border-radius: 5%;
     padding: 30px;
     overflow: scroll;
+    font-family: 'Fraunces', serif; 
 }
 
 
@@ -53,31 +56,27 @@ main {
 /* number info */
 .container-info { 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
     
 }
 
-.container-number { 
-
-    display: flex;
-    justify-content: space-evenly;
-    
-    
+/* paragraph */
+.words { 
+    color: var(--Soft-blue);
 }
 
-#number-svg { 
-
-    
-    
+.container-info>p>svg { 
+    position: relative;
+    top: .2rem; 
 
 }
 
 
 .numbers { 
-    line-height: 20px;
-   
-    
+
+    position: relative; 
     color: var(--Cyan);
+
 
 }
 
@@ -85,6 +84,10 @@ main {
     color: var(--Soft-blue)
 }
 
+#days-svg { 
+    position: relative;
+    right: .2rem; 
+}
 
 /* Footer info */
 
@@ -92,11 +95,16 @@ Footer {
     display: flex;
     gap: 10px;
     border-top: 1px var(--Very-dark-blue-line) solid;
-    margin-top: 5px; 
+    margin-top: 10px; 
+  
 }
+
+
 .creation { 
     text-align: center;
     color: var(--Soft-blue);
+    padding-top: .5rem;
+    
 }
 
 .firstlastname { 
@@ -104,8 +112,13 @@ Footer {
 }
 
 #profile { 
-    height: 40px;
+    position: relative;
+    height: 30px;
+    width: auto;
     border: 1px white solid; 
     border-radius: 50%; 
+    top: 1rem;
+    
+    
     
 }
