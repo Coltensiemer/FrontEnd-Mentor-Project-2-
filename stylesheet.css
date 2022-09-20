@@ -23,7 +23,7 @@
 }
 
 body { 
-    margin: 0;
+    margin: 50px auto;
     padding: 30px;
     background-color: var(--Very-dark-blue);
 }
@@ -62,10 +62,11 @@ main {
 /* paragraph */
 .words { 
     color: var(--Soft-blue);
-    font-weight: ;
-    font-size: var(--Font-size);
-    line-height: 2em;
-   margin-bottom: -10px;
+    font-weight: 700;
+   
+   
+    line-height: 1.5em;
+   margin-bottom: -5px;
     
 }
 
@@ -121,10 +122,8 @@ Footer {
     width: auto;
     border: 1px white solid; 
     border-radius: 50%; 
-    top: 1rem;
-    
-    
-    
+    top: 1.2rem;  
 }
 
-@media (min-width:500px) { main {padding-left: 550px; padding-right: 550px; padding-top: 100px; padding-bottom: 100px;  }}
+@media (min-width:500px) { main { margin: 100px auto;
+min-width: 200px; max-width: 400px;}}
