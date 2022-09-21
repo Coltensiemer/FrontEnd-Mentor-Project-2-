@@ -37,67 +37,67 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--Very-dark-blue-card);
-    
     color: white;
     border-radius: 5%;
     padding: 30px;
     overflow: scroll;
     font-family: 'Outfit', sans-serif;
 }
+
+
+
+/* Main image */
+
 #image-container { 
     position: relative;
-    overflow: hidden;
-
+  
 }
 
-/* Main image  */
+#image-container:hover:after { 
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 100%; 
+    background-color: var(--Cyan);
+    opacity: 50%;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    
+}
+
+
 #main-image { 
   height: auto;
   width: 100%;
   border-radius: 5px;
-
-}
-
-
-
-#image-container {
-    overflow: hidden;
     position: relative;
 }
 
 
-.hover-effect {
-    display: block; 
-    overflow: hidden;
+
+
+
+
+.hover-effect-icon { 
     position: relative;
+    
 }
 
-.hover-effect:before {
-    background-color: rgba(44,45,48,0);
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-
-.hover-effect-container {
-    left: 50%;
-    position: absolute;
-    top: -1.25rem;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    transition: .4s;
-}
-
-.hover-effect-icon {
-    color: #fff;
-    display: inline-block;
-    font-size: .75rem;
+.icon { 
     text-align: center;
+    height: 2rem;
+    width: 2rem;
+   
 }
+
+
+
+
+
+
+
+
 
 
 /* number info */
