@@ -50,7 +50,9 @@ main {
 
 #image-container { 
     position: relative;
-  
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #image-container:hover:after { 
@@ -71,29 +73,38 @@ main {
   height: auto;
   width: 100%;
   border-radius: 5px;
-    position: relative;
+
 }
 
 
 
-
-
-
-.hover-effect-icon { 
-    position: relative;
-    
-}
 
 .icon { 
-    text-align: center;
-    height: 2rem;
-    width: 2rem;
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    left: 45%;
+    top:45%;
+   
    
 }
 
+.svg-class { 
+    background-color: antiquewhite;
+}
+
+.icon-cover { 
+    background-color: gray;
+}
 
 
 
+
+.icon { 
+
+    fill: red; 
+    
+}
 
 
 
